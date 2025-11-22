@@ -1,0 +1,26 @@
+title: "FrozenReboot's Log"
+email: frozenreboot@gmail.com
+description: "Robotics / Study / Development" 
+baseurl: ""
+url: "https://frozenreboot.github.io"
+author: "FrozenReboot" 
+
+# Clean Blog Jekyll theme
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+
+# social usernames
+github_username: frozenreboot
+# linkedin_username:  
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-paginate
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Build settings
+markdown: kramdown
+theme_settings:
+  date_format: "%B %d, %Y"
