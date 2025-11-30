@@ -29,6 +29,7 @@ Specifically, it is difficult to find an SDK that simultaneously meets the follo
 2. **ROS2 Native Support** (Middleware)
 3. **Modern C++ Standards** (Language)
 
+---
 
 ## Preliminary Research
 
@@ -50,6 +51,7 @@ To ascertain the exact differences, I performed a direct code comparison using *
 The analysis confirmed that the codebases are identical, with the exception of **a single line**
 
 
+---
 
 ## Profiling the Codebase
 
@@ -79,6 +81,7 @@ Beyond the code itself, the commit history provides insight into the vendor's so
 It is highly probable that the ROS2 version was patched ad-hoc by a developer encountering build failures on a modern Linux system, without feeding this improvement back into the main SDK repository.
 This reinforces the conclusion that the provided software is merely a **"demo toolkit"** rather than a production-ready driver.
 
+---
 
 ## Planning
 
@@ -104,4 +107,5 @@ In the next post, I will proceed with the actual implementation:
 - **Architectural Analysis:** Dissecting the hierarchy and intent of the legacy code.
 - **Problem Identification:** Analyzing critical issues within the existing ROS2 node structure.
 - **Redesign:** Re-architecting the driver to comply with **Modern C++** and **ROS2 Official Standards**.
+
 ---
