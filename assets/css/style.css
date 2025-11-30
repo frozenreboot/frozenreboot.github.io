@@ -1,0 +1,40 @@
+/* 1. 폰트 및 기본 가독성 세팅 */
+body {
+    /* 시스템 폰트 우선 사용 (가독성 확보) */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #333333;      /* 완전 검정(#000)보다 눈이 편한 짙은 회색 */
+    line-height: 1.75;   /* 줄 간격을 1.75배로 넓힘 (핵심!) */
+    font-size: 17px;     /* 글씨 크기 약간 키움 */
+}
+
+/* 2. 문단 간격 (숨 쉴 구멍 만들기) */
+p {
+    margin-bottom: 1.8em; /* 문단 사이를 시원하게 띄움 */
+    letter-spacing: -0.01em; /* 자간을 아주 살짝 좁혀서 단단해 보이게 함 */
+    word-break: keep-all;    /* 한글 단어 중간에 줄바꿈 방지 */
+}
+
+/* 3. 제목 스타일 (위계질서 확립) */
+h1, h2, h3, h4 {
+    font-weight: 700;
+    margin-top: 2.5em;    /* 제목 위쪽 여백을 넓게 줌 */
+    margin-bottom: 0.8em;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+/* 4. 이미지 스타일 (아까 말한 그림자) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* 은은한 그림자 */
+    display: block;
+    margin: 30px auto; /* 이미지 위아래 여백 */
+}
+
+/* 5. 코드 블럭 가독성 */
+pre, code {
+    font-family: "JetBrains Mono", "Consolas", monospace; /* 개발자 폰트 */
+    font-size: 0.9em;
+}
