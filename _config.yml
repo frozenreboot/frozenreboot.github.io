@@ -10,7 +10,7 @@ remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 
 # social usernames
 github_username: frozenreboot
-google_analytics: G-032S9HF776  # <- 이렇게 추가하란 소리입니다.
+# google_analytics: G-032S9HF776  # <- 이렇게 추가하란 소리입니다.
 # linkedin_username:  
 
 plugins:
