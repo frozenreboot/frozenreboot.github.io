@@ -16,6 +16,7 @@ github_username: frozenreboot
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Pagination
 paginate: 5
