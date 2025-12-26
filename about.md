@@ -8,7 +8,7 @@ background: '/assets/img/about-bg.jpg'
 ## 🥶 FrozenReboot?
 > "Debugging the legacy, Rebooting the system."
 
-Hello! I am a **Robotics Engineer**
+Hello! I am a **Robotics Engineer**.
 My nickname, **FrozenReboot**, symbolizes my approach to engineering: calmly analyzing frozen(legacy/buggy) systems and successfully rebooting them into modern, robust environments.
 
 ### 🚀 What I Do
