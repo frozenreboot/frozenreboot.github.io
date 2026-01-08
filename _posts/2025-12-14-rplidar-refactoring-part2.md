@@ -11,9 +11,7 @@ description: "Why I kept the legacy SDK but rewrote the driver. An analysis of a
 
 ## Introduction
 
-In [Part 1], we successfully resolved the build system issues, migrating the project from a chaotic dependency state to a clean `colcon build`. However, seeing a green success message in the terminal is merely the starting point. **"Compilable" does not mean "Reliable."**
-
-Upon closer inspection, the existing RPLidar driver served well as a "Generic Reference" to demonstrate hardware capabilities, but it fell short of the strict requirements for a production-level robotics system. In this post, I will analyze the structural gaps, identify critical anti-patterns, and outline the strategy to transform this legacy code into a **Modern ROS2 Native** driver.
+In part 1, We find some problems in legacy driver. Instead of just patching the existing legacy structure, I decided to **overhaul** the architecture specifically for ROS2. The plan is simple: Delete the old logic and structure.only keep the essentials to be a **True ROS2-native driver**
 
 ---
 
